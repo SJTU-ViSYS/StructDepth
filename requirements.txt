@@ -1,0 +1,6 @@
+opencv-python=4.0.0.21
+h5py
+lu_vp_detect
+tqdm
+matplotlib
+tensorboardX
