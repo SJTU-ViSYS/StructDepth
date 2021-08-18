@@ -1,6 +1,6 @@
 # StructDepth
 PyTorch implementation of our paper: StructDepth: Leveraging the structural regularities for self-supervised indoor depth estimation
-![Image text]()
+![Image text](https://github.com/SJTU-ViSYS/StructDepth/blob/main/pic/show.png)
 
 ## Getting Started
 
