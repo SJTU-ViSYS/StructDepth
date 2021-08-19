@@ -1,5 +1,7 @@
 # StructDepth
-PyTorch implementation of our paper: StructDepth: Leveraging the structural regularities for self-supervised indoor depth estimation
+PyTorch implementation of our ICCV2021 paper: 
+
+StructDepth: Leveraging the structural regularities for self-supervised indoor depth estimation
 ![Image text](https://github.com/SJTU-ViSYS/StructDepth/blob/main/pic/show.png)
 
 ## Getting Started
@@ -19,7 +21,7 @@ conda activate struct_depth
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.1 -c pytorch
 ```
 
-**Step2**: Download [the modified scikit_image package](https://drive.google.com/file/d/1RYOwfdzM6keM3-pkWdydYJjBNSrL6gTJ/view?usp=sharing) , in which the input parameters of the Felzenswalb algorithm have been changed to accommodate our approach.
+**Step2**: Download [the modified scikit_image package](https://drive.google.com/file/d/1RYOwfdzM6keM3-pkWdydYJjBNSrL6gTJ/view?usp=sharing) , in which the input parameters of the Felzenswalb algorithm have been changed to accommodate our method.
 
 ```bash
 unzip scikit-image-0.17.2.zip
@@ -69,7 +71,7 @@ python extract_vps_nyu.py --data_path DATA_PATH --output_dir VPS_PATH --failed_l
 Note that if you need to train with a random flip, run the main direction extraction script on the images before and after the flip(add --flip) in advance, and note the failure examples, which can be skipped by referring to the code in datasets/nyu_datases.py.
 
 ### Training
-
+Modify the training script train.sh for PATH or different trainning settings.
 ```bash
 python train.py \
   --data_path DATA_PATH \
