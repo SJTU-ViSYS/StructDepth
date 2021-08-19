@@ -105,4 +105,4 @@ python train.py \
   --planar_thresh 200 \
 ```
 ## Acknowledgement
-We borrowed a lot of codes from [scikit-image](https://github.com/scikit-image/scikit-image), [monodepth2](https://github.com/nianticlabs/monodepth2), [P$^{2}$Net](https://github.com/svip-lab/Indoor-SfMLearner), and [LEGO](https://github.com/zhenheny/LEGO). Thanks for their excellent works!
+We borrowed a lot of codes from [scikit-image](https://github.com/scikit-image/scikit-image), [monodepth2](https://github.com/nianticlabs/monodepth2), [P<sup>2</sup>Net](https://github.com/svip-lab/Indoor-SfMLearner), and [LEGO](https://github.com/zhenheny/LEGO). Thanks for their excellent works!
