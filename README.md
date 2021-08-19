@@ -68,7 +68,7 @@ The raw NYU dataset is about 400G and has 590 videos. You can download the raw d
 ```python
 python extract_vps_nyu.py --data_path DATA_PATH --output_dir VPS_PATH --failed_list TMP_LIST -- thresh 60 
 ```
-Note that if you need to train with a random flip, run the main direction extraction script on the images before and after the flip(add --flip) in advance, and note the failure examples, which can be skipped by referring to the code in datasets/nyu_datases.py.
+If you need to train with a random flip, run the main direction extraction script on the images before and after the flip(add --flip) in advance, and note the failure examples, which can be skipped by referring to the code in datasets/nyu_datases.py.
 
 ### Training
 Modify the training script train.sh for PATH or different trainning settings.
