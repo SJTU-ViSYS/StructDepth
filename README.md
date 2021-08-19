@@ -2,6 +2,10 @@
 PyTorch implementation of our ICCV2021 paper: 
 
 StructDepth: Leveraging the structural regularities for self-supervised indoor depth estimation
+
+Boying Li*, Yuan Huang*, Zeyu Liu, Danping Zou, Wenxian, Yu
+
+(* Equal Contribution)
 ![Image text](https://github.com/SJTU-ViSYS/StructDepth/blob/main/pic/show.png)
 Please consider citing our paper in your publications if the project helps your research.
 ```
@@ -101,4 +105,4 @@ python train.py \
   --planar_thresh 200 \
 ```
 ## Acknowledgement
-We borrowed a lot of codes from [scikit-image](https://github.com/scikit-image/scikit-image), [monodepth2](https://github.com/nianticlabs/monodepth2), [p2net](https://github.com/svip-lab/Indoor-SfMLearner), and [LEGO](https://github.com/zhenheny/LEGO). Thanks for their excellent works!
+We borrowed a lot of codes from [scikit-image](https://github.com/scikit-image/scikit-image), [monodepth2](https://github.com/nianticlabs/monodepth2), [P$^{2}$Net](https://github.com/svip-lab/Indoor-SfMLearner), and [LEGO](https://github.com/zhenheny/LEGO). Thanks for their excellent works!
