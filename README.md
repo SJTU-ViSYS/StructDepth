@@ -1,7 +1,7 @@
 # StructDepth
 PyTorch implementation of our ICCV2021 paper: 
 
-StructDepth: Leveraging the structural regularities for self-supervised indoor depth estimation
+[StructDepth: Leveraging the structural regularities for self-supervised indoor depth estimation](https://arxiv.org/abs/2108.08574)
 
 Boying Li*, Yuan Huang*, Zeyu Liu, Danping Zou, Wenxian Yu
 
